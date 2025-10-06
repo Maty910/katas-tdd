@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                 // Usamos la última versión de JS
+    "module": "ESNext",                 // Para compatibilidad con Vitest
+    "moduleResolution": "Node",         // Cómo se resuelven los módulos
+    "rootDir": "src",                   // Carpeta del código fuente
+    "outDir": "dist",                   // Dónde se guarda el JS compilado (si lo necesitás)
+    "strict": true,                     // Modo estricto de TypeScript
+    "esModuleInterop": true,            // Permite importaciones comunes de JS
+    "skipLibCheck": true,               // Ignora verificación de librerías externas
+    "forceConsistentCasingInFileNames": true // Evita errores por mayúsculas/minúsculas
+  },
+  "include": ["src", "tests"]           // Incluir carpetas fuente y tests
+}
